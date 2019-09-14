@@ -24,7 +24,7 @@ const mapStateToProps = state => { //entirety of redux state.
 }
 const mapDispatchToProps = dispatch => {
     return {
-        tickAction: () => dispatch(tick)
+        tickAction: () => dispatch(tick())
     }
 }
 
